@@ -82,10 +82,13 @@ The data definitely has a lot of NaNs, the most concerning features are Loan adv
  
 ### Outliers
 The outlier explorations starts by plotting two of the most telling features when it comes to uncover the relation between the data and POIs: salary and bonus.
- 
+
+![SalaryVsBonus](https://github.com/AvinashRavichandran/EnronFraudDetection/blob/master/SalaryVsBonus.PNG)
+
 The plot clearly shows an outlier in the top right of the plot. Ordering the list by salary, the outlier is called TOTAL, which represents the sum of all the salaries, as shown in the insider-pay.pdf, therefore cannot be considered a person.
 
 After removing TOTAL here's the same plot again.
+![SalaryVsBonus](https://github.com/AvinashRavichandran/EnronFraudDetection/blob/master/SalaryVsBonusWithoutTotal.PNG)
 
 It looks like there still are four additional points with higher salary and bonus, in a range that could potentially consider them as outliers.
 
