@@ -264,7 +264,7 @@ Incredibly, both Accuracy and Precision more than doubled its score, on the othe
 
 Interestingly enough, SVC, the worst performer along all the project, turned the situation in its head by using a scaler and fine tuning its parameters.
 
-As the table above shows, SVC has the most healthy balance across Precision and Recall, with a Accuracy almost at par with AdaBoost and RandomForest.
+SVC has the most healthy balance across Precision and Recall, with a Accuracy almost at par with AdaBoost and RandomForest.
 
 
 
